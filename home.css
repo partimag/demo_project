@@ -1,0 +1,130 @@
+.alert{
+    color: white;
+    background-color:rgb(80,80,80);
+    
+    
+  }
+  .button{
+    background-color: white;
+    float: right;
+  }
+  .navbar{
+    color: black;
+  }
+  .font-body{
+    margin: 10px;
+    float: left;
+  }
+  .main{
+    background-color: #F9F8FD;
+    display: flex;
+  }
+  .large{
+    margin: 80px;
+    padding :25px;
+  }
+  .font{
+    /* margin: 10px; */
+    padding: 25px;
+  }
+  .font1{
+    margin: 10px;
+    padding: 15px;
+  }
+  .footer{
+    background-color:gainsboro;
+    display: flex;
+    width: auto;
+  
+  }
+li{
+    list-style-type: none;
+    
+  }
+  .ul{
+    margin: 10px;
+    padding: 20px;
+    gap: 2rem;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  *::selection{
+    color: rgb(235,76,140);
+  }
+.container{
+  display: flex;
+  gap: 4rem;
+  padding: 20px;
+  margin-left: 100px;
+
+}
+.cards{
+  display:flex ;
+  padding: 10px;
+  gap: 4rem;
+  margin-left: 100px;
+}
+.card1{
+  display: flex;
+  gap: 4rem;
+  margin-left: 100px;
+  padding: 20px;
+}
+.card2{
+  display: flex;
+  gap: 4rem;
+  padding: 20px;
+  margin-left: 100px;
+}
+.card3{
+  display: flex;
+  gap: 4rem;
+  padding: 20px;
+  margin-left: 100px;
+
+}
+
+.header2{
+  display: flex;
+}
+.all{
+  display: flex;
+  gap: 3rem;
+  margin: 20px;
+}
+.dropdown{
+  margin-left: 30px;
+  background-color: white;
+  border: rgb(235,76,140);
+  padding: 20px;
+}
+.card-text:hover{
+color: rgb(235,76,140);
+}
+.card-text{
+  float: right;
+}
+.ss{ 
+
+  display: flex;
+  gap: 1rem;
+}
+.btn1 {
+  margin-left: 600px;
+  border: rgb(235,76,140)
+}
+.nav-item ul li {
+  display: none;
+}
+.nav-item ul li :hover>l{
+  display: block;
+  
+  }
+  @media(min-width:800px){
+    .button{
+      width: 100%;
+    }
+  }
